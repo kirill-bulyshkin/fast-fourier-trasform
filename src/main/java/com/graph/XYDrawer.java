@@ -25,11 +25,11 @@ public class XYDrawer extends JFrame {
     private XYDataset xyDataset;
 
     public XYDrawer(XYDataset xyDataset) {
-        super("Kirill Boulishkin");
+        super("Kirill Bulyshkin");
         this.xyDataset = xyDataset;
         JPanel chartPanel = createChartPanel();
         add(chartPanel, BorderLayout.CENTER);
-        setSize(1000, 1000);
+        setSize(1000, 800);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
     }
@@ -40,7 +40,7 @@ public class XYDrawer extends JFrame {
         String yAxisLabel = "Y";
 
         JFreeChart chart = ChartFactory.createXYLineChart(chartTitle,
-                xAxisLabel, yAxisLabel, xyDataset, PlotOrientation.VERTICAL, true, false, false);
+                xAxisLabel, yAxisLabel, xyDataset, PlotOrientation.VERTICAL, true, true, false);
 
         customizeChart(chart);
 
@@ -66,16 +66,10 @@ public class XYDrawer extends JFrame {
         // sets paint color for each series
         renderer.setSeriesPaint(0, Color.RED);
         renderer.setSeriesPaint(1, Color.GREEN);
-        renderer.setSeriesPaint(2, Color.YELLOW);
 
         // sets thickness for series (using strokes)
-        renderer.setSeriesStroke(0, new BasicStroke(4.0f));
-        renderer.setSeriesStroke(1, new BasicStroke(3.0f));
-        renderer.setSeriesStroke(2, new BasicStroke(2.0f));
-
-        // sets paint color for plot outlines
-        plot.setOutlinePaint(Color.BLUE);
-        plot.setOutlineStroke(new BasicStroke(1.0f));
+        renderer.setSeriesStroke(0, new BasicStroke(7.0f));
+        renderer.setSeriesStroke(1, new BasicStroke(6.0f));
 
         // sets renderer for lines
         plot.setRenderer(renderer);
@@ -89,6 +83,10 @@ public class XYDrawer extends JFrame {
 
         plot.setDomainGridlinesVisible(true);
         plot.setDomainGridlinePaint(Color.BLACK);
+
+        plot.getRangeAxis().setVisible(false);
+        plot.getDomainAxis().setVisible(false);
+
 
     }
 }
