@@ -15,6 +15,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="fft2" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,6 +31,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1WoG18uNNvSJLbe1zW3UVOPuq8E" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -121,8 +130,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Runner" />
-        <item itemvalue="Application.XYDrawer" />
         <item itemvalue="Application.XYLineChartExample" />
+        <item itemvalue="Application.XYDrawer" />
         <item itemvalue="Application.SineWave" />
         <item itemvalue="Application.Main" />
       </list>
@@ -162,26 +171,26 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="481" y="309" width="477" height="284" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900@0.0.1440.900" timestamp="1579858750904" />
-    <state width="1398" height="228" key="GridCell.Tab.0.bottom" timestamp="1579867443172">
+    <state width="1398" height="228" key="GridCell.Tab.0.bottom" timestamp="1580050713266">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="228" key="GridCell.Tab.0.bottom/0.0.1440.900/955.-1080.1920.1080@0.0.1440.900" timestamp="1579867443172" />
-    <state width="1398" height="228" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579860677716" />
-    <state width="1398" height="228" key="GridCell.Tab.0.center" timestamp="1579867443170">
+    <state width="1398" height="228" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580050713266" />
+    <state width="1398" height="228" key="GridCell.Tab.0.center" timestamp="1580050713265">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="228" key="GridCell.Tab.0.center/0.0.1440.900/955.-1080.1920.1080@0.0.1440.900" timestamp="1579867443170" />
-    <state width="1398" height="228" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1579860677715" />
-    <state width="1398" height="228" key="GridCell.Tab.0.left" timestamp="1579867443169">
+    <state width="1398" height="228" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580050713265" />
+    <state width="1398" height="228" key="GridCell.Tab.0.left" timestamp="1580050713264">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="228" key="GridCell.Tab.0.left/0.0.1440.900/955.-1080.1920.1080@0.0.1440.900" timestamp="1579867443169" />
-    <state width="1398" height="228" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1579860677715" />
-    <state width="1398" height="228" key="GridCell.Tab.0.right" timestamp="1579867443171">
+    <state width="1398" height="228" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580050713264" />
+    <state width="1398" height="228" key="GridCell.Tab.0.right" timestamp="1580050713265">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="228" key="GridCell.Tab.0.right/0.0.1440.900/955.-1080.1920.1080@0.0.1440.900" timestamp="1579867443171" />
-    <state width="1398" height="228" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579860677716" />
+    <state width="1398" height="228" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580050713265" />
     <state width="1398" height="288" key="GridCell.Tab.1.bottom" timestamp="1579860677704">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

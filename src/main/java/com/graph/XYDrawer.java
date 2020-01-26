@@ -1,7 +1,6 @@
 package com.graph;
 
-import com.transform.fourier.Complex;
-import com.transform.fourier.FastFourierTransform;
+
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.ChartUtilities;
@@ -10,8 +9,6 @@ import org.jfree.chart.plot.PlotOrientation;
 import org.jfree.chart.plot.XYPlot;
 import org.jfree.chart.renderer.xy.XYLineAndShapeRenderer;
 import org.jfree.data.xy.XYDataset;
-import org.jfree.data.xy.XYSeries;
-import org.jfree.data.xy.XYSeriesCollection;
 
 import javax.swing.*;
 import java.awt.*;
@@ -26,12 +23,13 @@ import java.io.IOException;
  */
 public class XYDrawer extends JFrame {
     private XYDataset xyDataset;
+
     public XYDrawer(XYDataset xyDataset) {
         super("Kirill Boulishkin");
         this.xyDataset = xyDataset;
         JPanel chartPanel = createChartPanel();
         add(chartPanel, BorderLayout.CENTER);
-        setSize(640, 480);
+        setSize(1000, 1000);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
     }
@@ -48,8 +46,8 @@ public class XYDrawer extends JFrame {
 
         // saves the chart as an image files
         File imageFile = new File("XYLineChart.png");
-        int width = 640;
-        int height = 480;
+        int width = 1200;
+        int height = 1080;
 
         try {
             ChartUtilities.saveChartAsPNG(imageFile, chart, width, height);
@@ -59,7 +57,6 @@ public class XYDrawer extends JFrame {
 
         return new ChartPanel(chart);
     }
-
 
 
     private void customizeChart(JFreeChart chart) {
@@ -78,7 +75,7 @@ public class XYDrawer extends JFrame {
 
         // sets paint color for plot outlines
         plot.setOutlinePaint(Color.BLUE);
-        plot.setOutlineStroke(new BasicStroke(2.0f));
+        plot.setOutlineStroke(new BasicStroke(1.0f));
 
         // sets renderer for lines
         plot.setRenderer(renderer);
